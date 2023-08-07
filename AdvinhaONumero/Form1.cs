@@ -12,7 +12,7 @@ namespace AdvinhaONumero
 {
     public partial class frmPrincipal : Form
     {
-        private Random random;
+        private readonly Random random;
         private int intNumeroAleatorio;
 
         public frmPrincipal()
